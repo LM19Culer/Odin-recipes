@@ -5,24 +5,110 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
         <style>
+
             .rezeptur-box {
-             display: inline-block;
-             width: 100px;
+             display:block;
+             width: 120px;
              height: 160px;
-             padding: 18px;
+             padding: 24px;
+             color:rgb(160, 0, 0);
+             background-color: #fff4f4;
+             border:1px solid #880000;
+             border-radius: 2px;   
             }   
+
+            .karte{
+                  font-family: sans-serif;
+                  background: #eee;
+                  padding: 8px;
+            }
+            .titel {
+                font-weight:bold;
+                font-size: 16px;
+                box-sizing: border-box;
+                height: 50px;
+                width: 300px;
+                padding: 8px;
+                background-color: rgb(162, 216, 238);
+                border-radius: 1px;
+                margin: 1px;
+ 
+                
+                
+            }
+            .inhalt {
+                font-weight:bold;
+                font-size: 16px;
+                box-sizing: border-box;
+                height: 80px;
+                width: 300px;
+                padding: 8px;
+                background-color: rgb(162, 216, 238);
+                border-radius: 1px;
+                margin: 1px;
+                }
+
+            .untere_box {
+                font-weight:bold;
+                text-align: center;
+                font-size: 16px;
+                display:flex;
+                box-sizing: border-box;
+                height: 50px;
+                width: 300px;
+                padding: 8px;
+                background-color: rgb(162, 216, 238);
+                border-radius: 1px;
+                margin: 1px;
+                padding: 5px;
+
+            }
+            button{
+                 display: block;
+                 margin: 0 auto;
+                 padding: 8px 24px;
+                 background: white;
+                 border: 1px solid #eee;
+            }
         </style>
+        
 </head>
 <body>
-    <h1>PIZZA</h1>
+    <h1>PIZZA</h1><br>
+    
+    <img src="Pizza.jpg" alt="STEINOFEN-PIZZA"><br>
     <a href="../index.html">Zurück</a>
-    <img src="Pizza.jpg" alt="STEINOFEN-PIZZA">
     <br>Eine Steinofen Pizza auf einem Kochbrett,<br>
         das Rezept hierfür finden sie im nächsten Abschnitt.<br>
- <ul class="rezeptur-box">
-    <li>250ml lauwarmes wasser
-    <li>1 Würfel Hefe
-    <li>1 TL Salz
+<div class="rezeptur-box">
+ <ul>
+    <li> 250ml lauwarmes Wasser </li>
+    <li> 1 Hefe </li>
+    <li>250g Tomatensoße 1TL Salz</li>
  </ul>
+ </div>
+
+<div class="karte">
+<div class="titel"> Im a Card </div><br>
+
+<div class="inhalt">
+I have content inside of me ... blablabla <br>
+Heres some stuff you need to read</div>
+<br>
+<br>
+<div class="untere_box"> and a <br><br>
+     <button>BIG BUTTON</button> 
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>
